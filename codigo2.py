@@ -1,3 +1,4 @@
+
 # Imports #
 
 import pyautogui # extensão que permite clicar, escrever e etc #
@@ -22,11 +23,10 @@ link = ("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 login = ("normalaccont.matheus@gmail.com")
 password = ("40028922")
 # Abrir o google #
-
-pyautogui.PAUSE = 0.4
-
 pyautogui.press("win")
 pyautogui.write("Google Chrome")
+pyautogui.press("enter")
+pyautogui.press("tab")
 pyautogui.press("enter")
 
 # Entrar no Link #
@@ -54,10 +54,8 @@ for linha in tabela.index:
   C5 = tabela.loc[linha, "preco_unitario"]
   C6 = tabela.loc[linha, "custo"]
   C7 = tabela.loc[linha, "obs"]
-
   # selecione a primeira caixa do formulario #
   pyautogui.press("tab")
-  pyautogui.PAUSE = 0.01
   # Codigo #
   pyautogui.write(str(C1))
   pyautogui.press("tab")
