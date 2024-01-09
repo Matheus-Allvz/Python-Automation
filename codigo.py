@@ -88,3 +88,5 @@ for linha in tabela.index:
   # Começar do inicio da pagina #
   pyautogui.scroll (400)
   pyautogui.click(x=200, y=540)
+
+# <3 Matheus Allvz #
