@@ -28,6 +28,7 @@ pyautogui.PAUSE = 0.4
 pyautogui.press("win")
 pyautogui.write("Google Chrome")
 pyautogui.press("enter")
+pyautogui.click(x=695, y=475)
 
 # Entrar no Link #
 pyautogui.write(str(link))
